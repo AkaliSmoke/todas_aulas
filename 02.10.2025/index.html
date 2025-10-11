@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <h2>Exemplo de Formulário</h2>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade" name="idade" min="1" max="120">
+
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha" placeholder="Digite sua senha">
+
+            <label for="genero">Gênero:</label>
+            <select id="genero" name="genero">
+                <option value="">Selecione</option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+                <option value="outro">Outro</option>
+            </select>
+
+            <label>Preferências:</label>
+            <input type="checkbox" id="news" name="preferencias" value="noticias">
+            <label for="news" style="display:inline;">Receber notícias</label>
+            <input type="checkbox" id="promo" name="preferencias" value="promocoes">
+            <label for="promo" style="display:inline;">Receber promoções</label>
+
+            <label>Escolha uma opção:</label>
+            <input type="radio" id="opcao1" name="opcao" value="A">
+            <label for="opcao1" style="display:inline;">Opção A</label>
+            <input type="radio" id="opcao2" name="opcao" value="B">
+            <label for="opcao2" style="display:inline;">Opção B</label>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Digite sua mensagem"></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>

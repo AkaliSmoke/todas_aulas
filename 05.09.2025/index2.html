@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo CSS</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-align: center;
+            color :violet;
+        }
+        .exemplo-bloco {
+           background-color: lightsalmon;
+           width: 100%;
+           height: 230px;
+           text-align: center; 
+        }
+        #figure1 img {
+            width: 100px;
+            border-radius: 20px;
+        }
+
+        .exemplo-bloco2 {
+           background-color: rgba(238, 204, 15, 0.545);
+           text-align: center;
+           width: 50%;
+           height: 200px;
+           padding: 15px;
+        }
+
+        .exemplo-bloco3 {
+           background-color: rgba(90, 170, 24, 0.708);
+           text-align: center;
+           width: 50%;
+           height: 200px;
+           padding: 15px;
+        }
+
+        #container {
+            background-color: lightgreen;
+            width: 100%;
+            height: 250px;
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Exemplo de CSS</h1>
+
+    <div class="exemplo-bloco">
+        <h2>Bloco 1</h2>
+        <figure id="figure1">
+            <img src="l7iuwm477v061.png" alt="imagem top" width="100">
+            <figcaption>Hollow Knight</figcaption>
+        </figure>
+    </div>
+
+    <div id="container">
+        <div class="exemplo-bloco2">
+            <h2>Bloco 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, ad tempora veniam itaque delectus iure? Non, minima quam. Ea eveniet quod odio voluptatem facilis molestias fugit dicta sint delectus voluptatum!</p>
+        </div>
+
+        <div class="exemplo-bloco3">
+            <h2>Bloco 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus tempora ex hic quas sapiente quos enim excepturi iste, cupiditate beatae numquam optio reiciendis doloremque expedita at, distinctio harum impedit necessitatibus!</p>
+        </div>
+    </div>
+
+
+</body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de responsividade</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-size: 20px;
+            flex-direction: column;
+            align-items: center;
+            display: flex;
+        }
+
+
+        @media (max-width:600px) {
+            body {
+                background-color: #1d7aa8;
+                font-size: 16px;
+            }
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+            display: flex;
+            border: 3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de media query</h1>
+    <p>
+        Este exemplo mostra como usar <strong> media queries</strong> para tornar a página responsiva. <br>
+        Reduza a largura da janela para ver a mudança de cor e tamanho da fonte
+    </p>
+    <div class="img">
+        <img src="Flins, GENSHIN.jpg" alt="EXEMPLO DE media">
+    </div>
+
+
+    <audio>
+        <source src="video-fundo.mp4" type="audio/ogg">
+    </audio>
+
+    <H2>Exemplo de video</H2>
+
+    <iframe width="560" height="315" src="videoplayback.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+    </iframe>
+</body>
+</html>

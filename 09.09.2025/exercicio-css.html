@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Perfil de Usuário</title>
+    <link rel="stylesheet" href="estilo.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: grey;
+            text-align: center;
+        }
+
+
+        #titulo {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .menu {
+            list-style-type: none;
+            padding: 10px;
+            display: flex;
+            gap: 20px;
+            background-color: rgb(165, 165, 165);
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            justify-content: center
+        }
+
+        .foto {
+            width: 200px;
+            height: 200px;
+            border-radius: 60%;
+            border: 3px solid #1b1e1b;            
+        }
+
+        .nome {
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        .bio {
+            font-style: italic;
+        }
+
+        .btn {
+            background-color: #2a852d;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .interesses {
+            background-color: rgb(165, 165, 165);
+            padding: 10px;
+            border-radius: 20px;
+            font-style: italic;
+            list-style-position: inside;
+            justify-content: center;
+        }
+
+        .interesses li {
+            list-style: none;
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1 id="titulo">Bem-vindo ao Perfil</h1>
+        <nav>
+            <ul class="menu" align="center">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de perfil -->
+    <section class="perfil">
+        <img src="thumb-1920-1353868.png" alt="Foto do usuário" class="foto">
+        <h2 class="nome">Kaio Mascarenhas</h2>
+        <p class="bio">Desenvolvedor Front-end apaixonado por CSS e JavaScript.</p>
+        <button class="btn">Seguir</button>
+    </section>
+
+    <!-- Lista de interesses -->
+    <section class="interesses">
+        <h3>Interesses</h3>
+        <ul class="interesses">
+            <li>Tecnologia</li>
+            <li>Programação</li>
+            <li>Design</li>
+            <li>Música</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>© 2025 Meu Site</p>
+    </footer>
+
+</body>
+</html>

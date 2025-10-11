@@ -1,0 +1,26 @@
+.caixa-destaque {
+ border: red 5px solid;
+ border-radius: 20px;
+ text-align: center;  
+ background-color: yellow;
+ padding: 20px;
+}
+
+.aviso {
+    color: blue;
+    font-style: italic;
+    background-color: lightgray;
+    text-align: center;  
+}
+
+.botao-interativo {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer; 
+}
+
+.botao-interativo:hover {
+    background-color: orange;
+    font-weight: bold;
+}

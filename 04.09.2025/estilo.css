@@ -1,0 +1,12 @@
+body {
+    background-image: url("imagens/A9OdSK.png");
+    text-align: center;
+}
+
+#caixa {
+    background-color: tomato;
+    height: 150px;
+    width: 150px;
+    border: 2px solid blue;
+    border-radius: 15px;
+}

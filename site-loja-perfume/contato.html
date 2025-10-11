@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Fale conosco.">
+  <link rel="stylesheet" href="./style/style.css">
+  <title>Contato – Loja de Perfumes</title>
+</head>
+<body>
+  <header>
+    <h1>Loja de Perfumes</h1>
+    <nav aria-label="principal">
+      <a href="index.html">Início</a> |
+      <a href="sobre.html">Sobre</a> |
+      <a href="contato.html" aria-current="page">Contato</a>
+    </nav>
+  </header>
+
+  <main>
+    <section aria-labelledby="contato-titulo">
+      <h2 id="contato-titulo">Fale conosco</h2>
+
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Seus dados</legend>
+
+          <p>
+            <label for="nome">Nome</label>
+
+            <input type="text" id="nome" name="nome" required>
+          </p>
+
+          <p>
+            <label for="email">E-mail</label>
+
+            <input type="email" id="email" name="email" required>
+          </p>
+
+          <p>
+            <label for="tel">Telefone</label>
+
+            <input type="tel" id="tel" name="tel" placeholder="(11) 90000-0000">
+          </p>
+        </fieldset>
+
+        <fieldset>
+          <legend>Assunto</legend>
+          <p>
+            <label for="assunto">Selecione</label>
+
+            <select id="assunto" name="assunto">
+              <option value="duvida">Dúvida</option>
+              <option value="troca">Troca/Devolução</option>
+              <option value="atacado">Atacado</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="mensagem">Mensagem</label>
+
+            <textarea id="mensagem" name="mensagem" rows="5" cols="30" required></textarea>
+          </p>
+
+          <p>
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Li e aceito os termos de uso</label>
+          </p>
+        </fieldset>
+
+        <p>
+          <button type="submit">Enviar</button>
+          <button type="reset">Limpar</button>
+        </p>
+      </form>
+    </section>
+
+    <section aria-labelledby="onde-estamos-titulo">
+      <h2 id="onde-estamos-titulo">Onde estamos</h2>
+      <address>
+        Rua das Flores, 123 – São Paulo/SP
+
+        Telefone: (11) 99999-0000
+
+        E-mail: atendimento@lojadeperfumes.com.br
+      </address>
+      <p>
+        <a href="https://maps.google.com" target="_blank" rel="noopener">Ver no mapa</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p><small>© 2025 Loja de Perfumes. Todos os direitos reservados.</small></p>
+    <address>Rua das Flores, 123 – São Paulo/SP – (11) 99999-0000</address>
+  </footer>
+</body>
+</html>

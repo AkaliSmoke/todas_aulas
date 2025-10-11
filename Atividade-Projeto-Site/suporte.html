@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suporte - La Bella Pizza</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap">
+    <link rel="icon" href="/img/Icon-de-pizza.PNG">
+</head>
+<body background="/img/background-pizzaria.png">
+    <header class="header-container">
+        <h1 class="titulo">Atendimento ao Cliente</h1>
+        <hr class="linha-separadora">
+        <nav>
+            <ul>
+                <li><a class="itens-menu" href="index.html">Home</a></li>
+                <li><a class="itens-menu" href="sobre.html">Sobre</a></li>
+                <li><a class="itens-menu" href="suporte.html">Suporte</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="secao-formulario formulario-container">
+            <h2>Contato e Suporte</h2>
+            <p>Preencha o formulário abaixo e em breve entraremos em contato. Sua opinião é muito importante para nós!</p>
+
+            <form action="#" method="post" class="form-suporte">
+                <div class="form-grupo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required autocomplete="name">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required autocomplete="email">
+                </div>
+
+                <div class="form-grupo">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto" required>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2025 La Bella Pizza. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

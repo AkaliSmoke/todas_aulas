@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        /* Adicione seu CSS aqui */
+        nav {
+            background-color: blue;
+            width: 100%;
+            height: 100px;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+        nav a {
+            text-decoration: none;
+            color: rgb(222, 131, 11);
+            font-size: 20px;
+            margin: 20px;
+        }
+        section {
+            background-color: aquamarine;
+            display: flex;
+            width: 500px;
+            height: 500px;
+            gap: 20px;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center; 
+
+        }
+        div {
+            height: 60px;
+            width: 50px;
+            background-color: blue;           
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="">A1</a>
+        <a href="">A2</a>
+        <a href="">A3</a>
+        <a href="">A4</a>
+        <a href="">A5</a>
+    </nav>
+    <section>
+        <div>comida</div>
+        <div>comida</div>
+        <div>comida</div>
+        <div>comida</div>
+        <div>comida</div>
+        <div>comida</div>
+    </section>
+</body>
+</html>

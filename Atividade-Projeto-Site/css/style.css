@@ -1,0 +1,380 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.itens-menu {
+    text-decoration: none;
+    color: rgb(242, 218, 6);
+    font-size: 20px;
+    transition: color 0.2s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* Remova margens e justify-items */
+}
+
+nav {
+    height: 50px;
+    width: 100%;
+    /* Remova justify-content, justify-items, gap, display, align-items */
+}
+
+.titulo {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 36px;
+    color: #fff;
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.header-container {
+    background-color: #b22222;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+nav ul {
+    display: flex;
+    gap: 60px; /* Espaço entre os itens do menu */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.linha-separadora {
+    width: 80%;
+    border: none;
+    border-top: 10px solid #f2da06;
+    margin: 18px 0 25px 0;
+}
+
+.secao-principal {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff0e1; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.secao-secundaria {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff0e1; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.secao-terciaria {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff0e1; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.secao-lateral {
+    padding: 20px;
+    text-align: center;
+    background-color: #fff0e1; /* Cor de fundo clara */
+    color: #333; /* Cor do texto */
+    font-family: 'Dancing Script', cursive;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: inline-block;
+    vertical-align: left;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #b22222;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+        background-color: #cfa173;
+        display: flex;
+        height: 100%;
+        width: 100%;
+}
+
+/* ====================
+   6. Formulário de Suporte
+   ==================== */
+.formulario-container {
+    max-width: 600px;
+    margin: 40px auto;
+}
+
+.secao-formulario {
+    padding: 30px;
+    background-color: var(--cor-fundo-secao);
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+    text-align: left; /* Alinha o texto do formulário à esquerda */
+}
+
+.secao-formulario h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.secao-formulario p {
+    font-family: var(--fonte-menu);
+    text-align: center;
+    margin-bottom: 25px;
+    color: var(--cor-texto-escuro);
+}
+
+.form-suporte .form-grupo {
+    margin-bottom: 20px;
+}
+
+.form-suporte label {
+    display: block;
+    margin-bottom: 8px;
+    font-family: var(--fonte-secao);
+    font-size: 1.2rem;
+    color: var(--cor-texto-escuro);
+}
+
+.form-suporte input[type="text"],
+.form-suporte input[type="email"],
+.form-suporte textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: var(--fonte-secao);
+    font-size: 1rem;
+}
+
+.form-suporte textarea {
+    resize: vertical;
+}
+
+.botao-enviar {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background-color: var(--cor-primaria);
+    color: var(--cor-texto-claro);
+    border: none;
+    border-radius: 5px;
+    font-family: var(--fonte-titulo);
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background-color: #f2da06;
+}
+
+.botao-enviar:hover {
+    background-color: #8b0000;
+}
+
+/* ====================
+   7. Lista de Sabores (Cardápio)
+   ==================== */
+.lista-sabores {
+    margin: 40px 0;
+}
+
+.lista-sabores h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cardapio-flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.pizza-item {
+    flex: 1 1 250px;
+    padding: 20px;
+    background-color: var(--cor-fundo-secao);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.pizza-item:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo para as imagens das pizzas */
+.pizza-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.pizza-item h3 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    margin-top: 0;
+}
+
+.pizza-item p {
+    font-family: var(--fonte-secao);
+    font-size: 1.1rem;
+    color: var(--cor-texto-escuro);
+}
+
+.container-cardapio {
+    background-color: #c18d59;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+    border-radius: 8px;
+    justify-content: center;
+}
+
+/* ====================
+   6. Seção Sobre
+   ==================== */
+.secao-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin: 40px 0;
+    padding: 20px;
+    background-color: var(--cor-fundo-secao);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.conteudo-historia {
+    text-align: center;
+}
+
+.secao-historia h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+}
+
+.secao-historia p {
+    font-family: var(--fonte-secao);
+    font-size: 1.2rem;
+}
+
+.imagem-conteudo {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.secao-valores {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 40px 0;
+}
+
+.card-valores {
+    flex: 1;
+    min-width: 250px;
+    padding: 20px;
+    text-align: center;
+    background-color: var(--cor-secundaria);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-valores h3 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+}
+
+.card-valores p {
+    font-family: var(--fonte-menu);
+    color: var(--cor-texto-escuro);
+}
+
+.secao-equipe {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.secao-equipe h2 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    margin-bottom: 20px;
+}
+
+.equipe-membros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.membro-equipe {
+    max-width: 250px;
+    text-align: center;
+}
+
+.membro-equipe h3 {
+    font-family: var(--fonte-titulo);
+    color: var(--cor-primaria);
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.membro-equipe p {
+    font-family: var(--fonte-secao);
+    font-size: 1.1rem;
+}
+
+.foto-equipe {
+    width: 150px;
+    height: 150px;
+    border-radius: 30%;
+    object-fit: cover;
+    border: 5px solid var(--cor-secundaria);
+}
+
+/* Responsividade para a seção de história */
+@media (min-width: 800px) {
+    .secao-historia {
+        flex-direction: row;
+    }
+    .conteudo-historia {
+        text-align: left;
+    }
+}
